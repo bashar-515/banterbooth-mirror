@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "banterbooth",
-  "compatibility_date": "2025-09-02",
+  "compatibility_date": "2025-11-05",
   "compatibility_flags": ["nodejs_compat"],
   "main": "@tanstack/react-start/server-entry"
 }
