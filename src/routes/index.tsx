@@ -8,7 +8,7 @@ function Home() {
 			<header className="h-10"></header>
 
 			<main className="flex min-h-0 flex-1">
-				<div className="bg-black flex-1"></div>
+				<div className="flex-1 bg-black"></div>
 				<div className="flex-1 bg-black"></div>
 			</main>
 
