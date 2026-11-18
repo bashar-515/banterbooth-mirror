@@ -4,11 +4,15 @@ export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
 	return (
-		<div className="p-8">
-			<h1 className="text-4xl font-bold">Welcome to TanStack Start</h1>
-			<p className="mt-4 text-lg">
-				Edit <code>src/routes/index.tsx</code> to get started.
-			</p>
+		<div className="flex h-dvh flex-col">
+			<header className="h-10"></header>
+
+			<main className="flex min-h-0 flex-1">
+				<div className="bg-black flex-1"></div>
+				<div className="flex-1 bg-black"></div>
+			</main>
+
+			<footer className="h-10"></footer>
 		</div>
 	);
 }
