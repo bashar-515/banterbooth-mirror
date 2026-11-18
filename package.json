@@ -10,8 +10,8 @@
 		"generate-routes": "vite build",
 		"build": "vite build",
 		"preview": "vite preview",
-		"format": "biome format --write && biome check --write",
-		"check": "biome format && biome check",
+		"format": "biome check --write",
+		"check": "biome check",
 		"lint": "biome lint",
 		"deploy": "pnpm run build && wrangler deploy"
 	},
